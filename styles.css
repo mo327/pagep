@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-family: 'Arial Black', sans-serif;
+}
+
+header .highlight {
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.hero {
+  background-image: url('pexels-felix-mittermeier-1146134.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+  position: relative;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+.company-name {
+  font-family: 'Amiri', serif; /* إضافة خط عربي قديم */
+  font-weight: bold;
+}
